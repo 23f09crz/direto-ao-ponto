@@ -31,7 +31,7 @@ export function Tabs() {
             <p className="text-dark2 font-[family-name:var(--font-feather-bold)]">
               Tudo o que você precisa para vender em um só lugar
             </p>
-            <ul className="list-disc mt-4 text-purple1 space-y-2">
+            <ul className="list-disc mt-4 text-black space-y-2">
               <li>Exiba seu catálogo de produtos</li>
               <li>
                 Acompanhe sua jornada de vendas e veja os benefícios que pode
@@ -49,7 +49,7 @@ export function Tabs() {
             <p className="text-dark2 font-[family-name:var(--font-feather-bold)]">
               Ferramentas essenciais para fornecedores
             </p>
-            <ul className="list-disc mt-4 text-purple1 space-y-2">
+            <ul className="list-disc mt-4 text-black space-y-2">
               <li>Gerencie seu inventário e estoque</li>
               <li>Cadastre novos produtos rapidamente</li>
               <li>Monitore o desempenho de vendas</li>
@@ -64,7 +64,7 @@ export function Tabs() {
             <p className="text-dark2 font-[family-name:var(--font-feather-bold)]">
               Benefícios exclusivos para clientes
             </p>
-            <ul className="list-disc mt-4 text-purple1 space-y-2">
+            <ul className="list-disc mt-4 text-black space-y-2">
               <li>Acesse uma ampla variedade de produtos</li>
               <li>Compre diretamente de revendedores confiáveis</li>
               <li>Receba suporte personalizado através do chat</li>
