@@ -8,7 +8,7 @@ export function CTA() {
         href="https://github.com/RaiDeOliveira/direto-ao-ponto"
         target="_blank"
         rel="noopener noreferrer" 
-        className="text-purple1 font-bold underline mt-4 inline-block transition-transform transform hover:scale-105 font-[family-name:var(--font-feather-bold)]"
+        className="text-black font-bold underline mt-4 inline-block transition-transform transform hover:scale-105 font-[family-name:var(--font-feather-bold)]"
       >
         Se inscreva aqui
       </a>
