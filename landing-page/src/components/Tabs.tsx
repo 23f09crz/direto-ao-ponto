@@ -8,7 +8,7 @@ export function Tabs() {
   const tabs = ["Fornecedor", "Revendedor", "Cliente"];
 
   return (
-    <div className="bg-light2 p-8 rounded-lg shadow-lg mx-auto max-w-4xl">
+    <div className="bg-light2 p-8 rounded-lg shadow-lg mx-auto max-w-4xl mb-16"> {/* Added margin-bottom */}
       <div className="flex justify-center space-x-8">
         {tabs.map((tab) => (
           <button
