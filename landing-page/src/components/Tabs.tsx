@@ -24,6 +24,7 @@ export function Tabs() {
           </button>
         ))}
       </div>
+
       <div className="mt-6">
         {activeTab === "Revendedor" && (
           <div>
@@ -42,7 +43,36 @@ export function Tabs() {
             </ul>
           </div>
         )}
-        {/* Adicionar conteúdo para outras abas (Fornecedor e Cliente) */}
+
+        {activeTab === "Fornecedor" && (
+          <div>
+            <p className="text-dark2 font-[family-name:var(--font-feather-bold)]">
+              Ferramentas essenciais para fornecedores
+            </p>
+            <ul className="list-disc mt-4 text-purple1 space-y-2">
+              <li>Gerencie seu inventário e estoque</li>
+              <li>Cadastre novos produtos rapidamente</li>
+              <li>Monitore o desempenho de vendas</li>
+              <li>Receba feedback direto dos revendedores</li>
+              <li>Ofereça promoções exclusivas para parceiros</li>
+            </ul>
+          </div>
+        )}
+
+        {activeTab === "Cliente" && (
+          <div>
+            <p className="text-dark2 font-[family-name:var(--font-feather-bold)]">
+              Benefícios exclusivos para clientes
+            </p>
+            <ul className="list-disc mt-4 text-purple1 space-y-2">
+              <li>Acesse uma ampla variedade de produtos</li>
+              <li>Compre diretamente de revendedores confiáveis</li>
+              <li>Receba suporte personalizado através do chat</li>
+              <li>Fique por dentro de novas promoções e ofertas</li>
+              <li>Crie listas de desejos para futuras compras</li>
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );

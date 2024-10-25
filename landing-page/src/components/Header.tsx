@@ -13,10 +13,14 @@ export function Header() {
         />
       </div>
 
-      {/* Botão */}
-      <button className="bg-purple1 text-light1 px-6 py-3 rounded-full hover:bg-purple2 transition transform duration-300 hover:scale-105 font-[family-name:var(--font-feather-bold)]">
+      <a
+        href="https://github.com/RaiDeOliveira/direto-ao-ponto"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-purple1 text-light1 px-6 py-3 rounded-full hover:bg-purple2 transition transform duration-300 hover:scale-105 font-[family-name:var(--font-feather-bold)]"
+      >
         Ir para o app
-      </button>
+      </a>
     </header>
   );
 }
